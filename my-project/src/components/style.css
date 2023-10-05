@@ -1,0 +1,221 @@
+/* Add padding to the Navbar */
+.navbar {
+  padding: 10px;
+ 
+}
+
+/*styling home page*/
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: azure;
+  text-align: center;
+}
+
+.welcome-text {
+  margin-bottom: 20px;
+}
+
+/* styling houses*/
+.house {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color:lightgreen;
+}
+
+/*styling contact form and reviews form */
+/* Styling for Contact Form Section */
+.contact{
+  display: flex;
+}
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgreen;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Reviews Container */
+.reviews-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for Reviews List */
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px; 
+  background-color:greenyellow;
+}
+
+.review-item {
+  flex: 1 1 calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+/* Styling for Add Review Section */
+.add-review {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#007BFF;
+  box-shadow: 0 010px rgba(0, 0, 0, 0.1); 
+}
+
+.add-review h3 {
+  margin-bottom: 20px;
+}
+
+.add-review form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-review form .mb-3 {
+  margin-bottom: 15px;
+}
+
+.add-review form label {
+  font-weight: bold;
+}
+
+.add-review form textarea, .add-review form input {
+  padding: 12px;
+  border: 1px solid green;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.add-review form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:greenyellow;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-review form button:hover {
+  background-color: green;
+}
+
+
+/* Styling Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007BFF;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/*styling house page*/
+ .house-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20;
+} 
+.house-content {
+  background-color: lightgreen;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+} 
+
+
+.input-field {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #B30000;
+}
+
+
+h3 {
+  text-align: center; 
+  margin: 0; 
+  padding: 10px;
+}
+
+/*styling About page*/
+.about-container {
+  background-image: url('https://as2.ftcdn.net/v2/jpg/04/82/12/93/1000_F_482129395_dis2z0XFlu7mhsJGSnK3aZyapWKCAXa7.jpg');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+/*styling Loan form*/
+.welcome-text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.loan-form {
+  width: 40%;
+  margin-bottom: 50px; 
+}
+
+
+/*styling cards */
+.house-list-container {
+  background-color: lightgreen;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for each card */
+.custom-card {
+  width: 18rem;
+  margin-right: 10px;
+  margin-bottom: 10px;  
+}
+
+/* Style for the card images */
+.custom-card img {
+  height: 200px; 
+  object-fit: cover;
+}
+

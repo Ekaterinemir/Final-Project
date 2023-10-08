@@ -3,9 +3,12 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './style.css'; 
 
+
+//HouseList component renders a list of houses using Bootstrap cards. Each card represents a specific type of house 
+//and displays relevant information, including an image, house name, and description. This component allows for a visually
+// appealing display of house information.
 function HouseList() {
-  // The houseData array contains objects with information about different types of houses, including image 
-  //source, house name, and description.
+  // The houseData array contains objects with information about different types of houses.
   const houseData = [
     {
       imageSrc: 'https://www.thehousedesigners.com/images/uploads/SiteImage-Landing-modern-house-plans-1.webp',

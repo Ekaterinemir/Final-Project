@@ -9,7 +9,7 @@ import Home from './components/Home';
 
 //App component is defining the application's main structure and routing using React Router.Inside the Routes
 // component, it associates each route path with a specific component to render when the user navigates to that path.
-//t's a central file that orchestrates the rendering and behavior of the entire React application.
+//It's a central file that orchestrates the rendering and behavior of the entire React application.
 const App = () => {
   return (
     <Router>

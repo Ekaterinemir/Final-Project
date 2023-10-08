@@ -3,14 +3,17 @@ import React, { useState } from 'react';
 import Reviews from './reviews';
 import './style.css';
 
-//The Contact component represents a contact form section for a web application. 
+//Contact component represents a contact form section for a web application. It includes a form for users 
+//to input their contact information (name, email, and message) and submit it. 
 const Contact = () => {
-  // State for form fields: contactName, contactEmail, contactMessage
+  // The component uses the useState hook to manage the state for form fields: contactName, contactEmail, and 
+  //contactMessage.
   const [contactName, setContactName] = useState('');
   const [contactEmail, setContactEmail] = useState('');
   const [contactMessage, setContactMessage] = useState('');
 
-    // Function to handle form submission
+    //submitContactForm is a function that handles the form submission. It logs the form data and resets the form fields
+    // after submission.
   const submitContactForm = (e) => {
     e.preventDefault();
     console.log('Contact form submitted!', {
@@ -18,7 +21,7 @@ const Contact = () => {
       email: contactEmail,
       message: contactMessage
     });
-     // Reset form fields after submission
+    
     setContactName('');
     setContactEmail('');
     setContactMessage('');

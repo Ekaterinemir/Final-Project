@@ -4,7 +4,9 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './style.css';
 
-//Navbar component from react-bootstrap with specific styling and structure
+//NavbarComponent defines a navigation bar using Navbar from react-bootstrap. It provides a structured
+// navigation menu for a web application, allowing users to navigate to different sections of the application using 
+//styled links.
 const NavbarComponent = () => {
   return (
     // Returns a JSX structure representing a navigation bar

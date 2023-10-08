@@ -1,7 +1,16 @@
+//Using an online API of your choice, create a React project. You will be working on this for the next three weeks.
+//Project must meet the following criteria:
+//Use React Router and have at least 3 pages using React Bootstrap or an alternative styling library
+//Contain at least 10 components
+//Allow for all CRUD operations
+
+
 import React from 'react';
 import './style.css';
 
-//Home is a functional component that returns JSX, defining the structure of the homepage.
+//The Home function is a React functional component that defines the structure and content of a homepage for a real 
+//estate application. It returns a JSX expression representing the structure and content of the homepage. When this 
+//component is rendered, it will display the content defined within the returned JSX.
 const Home = () => {
   return (
     <div className="home-container">

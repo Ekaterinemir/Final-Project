@@ -3,7 +3,7 @@ import React from 'react';
 import Loan from './Loan';  
 import './style.css';  
 
-// Define the About component
+// The About function is defined using an arrow function syntax. It doesn't take any parameters and directly returns JSX.
 const About = () => {
   return (
     // The "about-container" holds the welcome text section and the loan application form, providing 

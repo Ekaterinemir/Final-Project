@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-//The Reviews.js displays of customer reviews and allows users to submit new reviews.
+//The Reviews.js displays customer reviews and allows users to submit new reviews.
 
   const Reviews = () => {
   // State for storing the new review and author
@@ -26,7 +26,7 @@ import './style.css';
         author: newAuthor
       };
      
-      // Update reviewsData with the new review item
+      // Update reviewsData with the new review 
       setReviewsData([...reviewsData, newReviewItem]);
       setNewReview('');
       setNewAuthor('');
@@ -34,7 +34,8 @@ import './style.css';
   };
 
   return (
-     // Component structure and content
+     // Returns JSX representing the structure and content of the reviews component.Displays the existing customer 
+     //reviews in a list.
     <div className="reviews-container">
       <h5>Customer Reviews</h5>
       <div className="reviews-list">

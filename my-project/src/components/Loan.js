@@ -11,7 +11,7 @@ const LoanForm = () => {
     loanAmount: ''
   };
  
-  // It uses the React useState hook to manage the state of the form data (formData).
+  // It uses useState hook to manage the state of the form data (formData).
   const [formData, setFormData] = useState({ ...initialFormData });
   
     //handleInputChange function updates the form data (formData) as the user types in the input fields.
@@ -20,12 +20,12 @@ const LoanForm = () => {
     setFormData({ ...formData, [id]: value });
   };
   
-  // Handle form submission
+  // handleSubmit function is called when the form is submitted. It logs the form data to the console and resets the 
+  //form data to clear input fields. 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
 
-    // Reset form data to clear input fields
     setFormData({ ...initialFormData }); 
   };
 
